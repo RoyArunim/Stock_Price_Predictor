@@ -14,4 +14,4 @@ Build the LSTM model
  When defining the Dropout layers, we specify 0.2, meaning that 20% of the layers will be dropped.
  Thereafter, we add the Dense layer that specifies the output of 1 unit
  After this, we compile our model using the popular adam optimizer and set the loss as the mean_squarred_error.
- Next, we fit the model to run on 100 epochs with a batch size of 32
+ Next, we fit the model to run on 100 epochs with a batch size of 32.
